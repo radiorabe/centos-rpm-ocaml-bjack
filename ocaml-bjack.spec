@@ -8,8 +8,7 @@ Release:  1
 Summary:  OCaml blocking JACK API
 License:  LGPLv2
 URL:      https://github.com/savonet/ocaml-bjack
-#Source0:  https://github.com/savonet/ocaml-bjack/archive/%{version}.tar.gz#/%{name}-%{version}.tar.gz
-Source0:  https://github.com/savonet/ocaml-bjack/releases/download/0.1.5/ocaml-bjack-0.1.5.tar.gz
+Source0:  https://github.com/savonet/ocaml-bjack/releases/download/%{version}/ocaml-bjack-%{version}.tar.gz
 
 BuildRequires: libsamplerate-devel
 BuildRequires: ocaml
