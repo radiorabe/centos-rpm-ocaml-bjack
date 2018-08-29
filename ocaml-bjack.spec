@@ -23,6 +23,7 @@ OCaml blocking JACK API
 Summary:        Development files for %{name}
 Group:          Development/Libraries
 Requires:       %{name} = %{version}-%{release}
+Requires:       jack-audio-connection-kit-devel
 
 
 %description    devel
